@@ -9,6 +9,10 @@ const Header = () => {
                 <div className="logo">
                     <img src={Logo} alt="" />
                 </div>
+                <div className="search_box">
+                <input type="text" placeholder='Want to learn?' className='search_box_input' />
+                <button>Explore</button>
+                        </div>
                 <div className="nav_links">
                     <ul>
                         <li>
@@ -18,10 +22,19 @@ const Header = () => {
                             <Link to="/about_us">About Us</Link>
                         </li>
                         <li>
-                            <Link to="/services">Services</Link>
+                            <Link to="/services">Courses</Link>
+                        </li>
+                        <li>
+                            <Link to="/services">Contact us</Link>
+                        </li>
+                        <li>
+                            <Link to="/services">FAQ's</Link>
+                        </li>
+                        <li className="sign">
+                            <Link to="/sign_up">Sign in</Link>
                         </li>
                         <li className="btn_sign">
-                            <Link to="/sign_up">Sign Up</Link>
+                            <Link to="/sign_up">Create free account</Link>
                         </li>
                     </ul>
                 </div>
