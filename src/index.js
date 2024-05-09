@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles/card.css'
 import './styles/tracks.css'
+import './styles/designtrack.css'
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 

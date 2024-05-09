@@ -11,8 +11,9 @@ const Tracks = () => {
             <div className="page_width">
                 <div className="track_div">
                     <div className="top_content">
-                        <h3>Our Tracks</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+                    <p>Our Services</p>
+                        <h2>Fostering a playful & engaging learning<br/> environment</h2>
+                       
                     </div>
                     <div className="track_cards">
                         <div className="">
