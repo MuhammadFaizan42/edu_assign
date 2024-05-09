@@ -55,7 +55,7 @@ const DesignTrack = () => {
                             </div>
                         </div>
                         <div className="">
-                            <div className="card">
+                            <div className="card2">
                                 <div className="rating">
                                     <div className="img">
                                     <img src={Graph} alt="" />

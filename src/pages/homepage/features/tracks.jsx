@@ -9,15 +9,22 @@ const Tracks = () => {
     return (
         <div className='outer_track' >
             <div className="page_width">
-                <div className="track_div">
+                <div className="track_div1">
                     <div className="top_content">
-                    <p>Our Services</p>
-                        <h2>Fostering a playful & engaging learning<br/> environment</h2>
-                       
+                    <p>Explore Programs</p>
+                        <h2>Our Most Popular Class</h2>
+                        <div className='detail'>
+                            <p sty>Let's join our famous class, the knowledge provided will definitely be useful for you.</p>
+                        </div>
                     </div>
                     <div className="track_cards">
                         <div className="">
                             <div className="cards">
+                            <div className="icons">
+                                    <div className="icon_item">
+                                        <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
+                                    </div>
+                                </div>
                                 <div className="img">
                                     <img src={CardImg} alt="" />
                                 </div>
@@ -37,12 +44,6 @@ const Tracks = () => {
                                 </div>
                                 <hr />
                                 <div className="icons">
-                                    <div className="icon_item">
-                                        <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
-                                    </div>
-                                    <div className="icon_item">
-                                        <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
-                                    </div>
                                     <div className="icon_item">
                                         <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
                                     </div>
