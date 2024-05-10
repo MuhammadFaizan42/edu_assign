@@ -4,6 +4,8 @@ import './index.css';
 import './styles/card.css'
 import './styles/tracks.css'
 import './styles/designtrack.css'
+import './styles/heroes.css'
+import './styles/student.css'
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 

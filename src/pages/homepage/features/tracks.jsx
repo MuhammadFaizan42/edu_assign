@@ -3,7 +3,11 @@ import { FaStar, FaRegStar } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
 import { GoDeviceCameraVideo } from "react-icons/go";
 import { LuDownload } from "react-icons/lu";
-import CardImg from '../../../assets/card_img.jpg'
+import CardImg from '../../../assets/ui design.png'
+import Avatar from '../../../assets/Avatar.png'
+import Learn from '../../../assets/learn shoaib.png'
+import Bulding from '../../../assets/bulding interface.png'
+
 
 const Tracks = () => {
     return (
@@ -20,37 +24,100 @@ const Tracks = () => {
                     <div className="track_cards">
                         <div className="">
                             <div className="cards">
-                            <div className="icons">
-                                    <div className="icon_item">
-                                        <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
-                                    </div>
-                                </div>
+                            
                                 <div className="img">
                                     <img src={CardImg} alt="" />
                                 </div>
                                 <div className="rating">
-                                    <small>UI/UX Design</small>
+                                    <small>Design</small>
+                                    <h2>Figma UI UX Design..</h2>
+                                    <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
                                     <div className="stars">
+                                        <p>4.3</p>
                                         <FaStar className='full_icon' />
                                         <FaStar className='full_icon' />
                                         <FaStar className='full_icon' />
                                         <FaStar className='full_icon' />
                                         <FaRegStar className='full_icon' />
+                                        <span>(16,325)</span>
                                     </div>
                                 </div>
                                 <div className="main_heading">
-                                    <h2>UI/UX Design for Beginners</h2>
+                                    <div className="avatar">
+                                    <img src={Avatar} alt="" />
+                                    </div>
+                                    <div className="Avatar_title">
+                                    <span>Jane Cooper</span>
+                                    <p>2001 Enrolled</p>
+                                    </div>
                                     <h3>$98</h3>
                                 </div>
-                                <hr />
-                                <div className="icons">
-                                    <div className="icon_item">
-                                        <span> <CiClock2 color='#000000' size={18} /> 22hr 30min </span>
+                            </div>
+
+                        </div>
+                        <div className="">
+                            <div className="cards">
+                            
+                                <div className="img">
+                                    <img src={Learn} alt="" />
+                                </div>
+                                <div className="rating">
+                                    <small>Design</small>
+                                    <h2>Figma UI UX Design..</h2>
+                                    <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                                    <div className="stars">
+                                        <p>4.3</p>
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaRegStar className='full_icon' />
+                                        <span>(16,325)</span>
                                     </div>
                                 </div>
+                                <div className="main_heading">
+                                    <div className="avatar">
+                                    <img src={Avatar} alt="" />
+                                    </div>
+                                    <div className="Avatar_title">
+                                    <span>Jane Cooper</span>
+                                    <p>2001 Enrolled</p>
+                                    </div>
+                                    <h3>$98</h3>
+                                </div>
                             </div>
-                            <div className="">
-                                <button>Join Course</button>
+
+                        </div>
+                        <div className="">
+                            <div className="cards">
+                            
+                                <div className="img">
+                                    <img src={Bulding} alt="" />
+                                </div>
+                                <div className="rating">
+                                    <small>Design</small>
+                                    <h2>Figma UI UX Design..</h2>
+                                    <p>Use Figma to get a job in UI Design, User Interface, User Experience design.</p>
+                                    <div className="stars">
+                                        <p>4.3</p>
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaStar className='full_icon' />
+                                        <FaRegStar className='full_icon' />
+                                        <span>(16,325)</span>
+                                    </div>
+                                </div>
+                                <div className="main_heading">
+                                    <div className="avatar">
+                                    <img src={Avatar} alt="" />
+                                    </div>
+                                    <div className="Avatar_title">
+                                    <span>Jane Cooper</span>
+                                    <p>2001 Enrolled</p>
+                                    </div>
+                                    <h3>$98</h3>
+                                </div>
                             </div>
 
                         </div>

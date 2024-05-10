@@ -45,67 +45,124 @@ color: #667085;
     box-shadow: 0px 4px 25px 0px #0000001A;
     border-radius: 15px;
     padding: 15px;
+    position: relative;
+    
 }
 
 .cards .img {
     width: 100%;
-    height: 200px;
-    border-radius: 15px;
+    height: 250px;
+    border-radius: 4px;
 }
 
 .cards .img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 4px;
 }
 
 .cards .rating {
-    display: flex;
     justify-content: space-between;
     margin: 1rem 0px;
 }
 
 .cards .rating small {
-    font-family: Jost;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 16px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+color:#1A906B;
+}
+.cards .rating h2 {
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 32px;
+text-align: left;
+color:#101828;
+}
+.cards .rating p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     text-align: left;
-    color: #ACACAC;
+    color: #667085;
+ }
+ .cards .rating .stars {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 3px;
+margin:10px 5px;
+}
+
+.cards .rating .stars p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+    color: #3FC89E;    
+}
+
+.cards .rating .stars span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    color:#969696;
 }
 
 .cards .rating .full_icon {
     color: #FFA135;
 }
 
-.cards .main_heading h2 {
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
+
+.cards .main_heading{
+display: flex;
+flex-direction: row;
+gap:20px
+}
+
+.cards .main_heading .Avatar_title span {
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+color: #101828;
+
+}
+
+.cards .main_heading .Avatar_title p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
     text-align: left;
-    color: #000000;
+    color:#667085;
 }
 
 .cards .main_heading h3 {
-    font-family: Jost;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: left;
-    color: #FF7426;
+font-family: Inter;
+font-size: 26px;
+font-weight: 700;
+line-height: 31.47px;
+text-align: right;
+color:#3FC89E;
+padding-left: 90px;
 }
 
-.cards hr {
-    border-bottom: 1px dotted #ACACAC;
-    margin: 8px 0px;
-}
 
 .cards .icons {
 align-items: end;
-margin: 0px 0px 0px 250px ;
-z-index:100; position: fixed;
+margin: 5px 0px 0px 250px ;
+position:absolute;
 }
 
 .cards .icons span {
@@ -114,7 +171,8 @@ z-index:100; position: fixed;
     font-weight: 500;
     line-height: 16px;
     text-align: left;
-    color: #ACACAC;
+    color:#667085;
+    background: #FFFFFF;
     display: flex;
     align-items: center;
     gap: 5px;
