@@ -5,6 +5,7 @@ import Tracks from './features/tracks'
 import DesignTrack from './features/designtrack'
 import Heroes from './features/heroes'
 import Student from './features/student'
+import Blog from './features/blog'
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
             <Tracks />
             <Heroes/>
             <Student/>
+            <Blog />
         </div>
     )
 }
